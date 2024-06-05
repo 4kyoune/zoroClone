@@ -1,17 +1,4 @@
-import React from "react";
-import { AnimeInfoAnilist } from '@/lib/Anilistfunctions'
-import NextAiringDate from "@/components/videoplayer/NextAiringDate";
-import PlayerAnimeCard from "@/components/videoplayer/PlayerAnimeCard";
-import Navbarcomponent from "@/components/navbar/Navbar";
-import PlayerComponent from "@/components/videoplayer/PlayerComponent";
-import Animecards from "@/components/CardComponent/Animecards";
-import { createWatchEp, getEpisode } from "@/lib/EpHistoryfunctions";
-import { WatchPageInfo } from "@/lib/AnilistUser";
-import { getAuthSession } from "../../../api/auth/[...nextauth]/route";
-import { redis } from '@/lib/rediscache';
 
-export const revalidate = 60;
- 
 async function getInfo(token,id) {
   try {
     let cachedData;
