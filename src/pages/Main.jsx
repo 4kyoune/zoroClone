@@ -92,14 +92,14 @@ const Main = () => {
       </M.Banner>
       <M.Container>
         <M.Action to="/home">
-          View Full Site <FaArrowCircleRight />
+          MELUNCUR <FaArrowCircleRight />
         </M.Action>
 
         <ShareButton />
         <M.BoxWrapper>
           <M.BoxLeft>
             <h1 style={{ color: '#fff', fontSize: '28px' }}>
-              Zoro.to - The best site to watch anime online for Free
+              Aichinime - The best site to watch anime online for Free
             </h1>
             <p>
               Do you know that according to Google, the monthly search volume
@@ -154,7 +154,7 @@ const Main = () => {
           </M.BoxRight>
         </M.BoxWrapper>
         <M.Footer>
-          <p>©2021 Zoro.to. All rights reserved.</p>
+          <p>©2024 Aichinime All rights reserved.</p>
           <p>Mangareader - Read Manga Online For FREE</p>
         </M.Footer>
       </M.Container>
