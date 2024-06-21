@@ -17,7 +17,7 @@ const Series = () => {
       <ShareButton borderRadius={false} />
       <M.MainWrapper>
         <M.Main>
-          <M.Heading>TV Series Anime</M.Heading>
+          <M.Heading>Light Novel</M.Heading>
           <M.MovieList>
             {isFetched &&
               data.data.map((item, idx) => <CardTwo key={idx} data={item} />)}
